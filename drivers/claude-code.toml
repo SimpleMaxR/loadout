@@ -1,0 +1,15 @@
+[tool]
+id = "claude-code"
+display_name = "Claude Code"
+icon = "claude"
+detect = ["~/.claude/settings.json"]
+
+[mcp]
+format = "json-key"
+path = "~/.claude/settings.json"
+key = "mcpServers"
+
+[skills]
+format = "symlink"
+path = "~/.claude/skills"
+skill_entry = "SKILL.md"

@@ -1,0 +1,20 @@
+[tool]
+id = "codex"
+display_name = "Codex"
+icon = "codex"
+detect = ["~/.codex/config.toml"]
+
+[mcp]
+format = "plugin-manifest"
+path = "~/.codex/plugins"
+manifest_template = "codex-plugin"
+
+[skills]
+format = "copy-with-manifest"
+path = "~/.codex/skills"
+skill_entry = "SKILL.md"
+manifest_generator = "codex-skill"
+
+[skills.file_filter]
+include = ["SKILL.md", "references/**", "scripts/**", "assets/**", "agents/openai.yaml", "agents/_shared.yaml"]
+exclude = ["agents/claude.yaml"]

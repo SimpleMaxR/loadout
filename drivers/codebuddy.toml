@@ -1,0 +1,15 @@
+[tool]
+id = "codebuddy"
+display_name = "Codebuddy"
+icon = "codebuddy"
+detect = ["~/.codebuddy/mcp.json"]
+
+[mcp]
+format = "json-key"
+path = "~/.codebuddy/mcp.json"
+key = "mcpServers"
+
+[skills]
+format = "symlink"
+path = "~/.codebuddy/skills"
+skill_entry = "SKILL.md"

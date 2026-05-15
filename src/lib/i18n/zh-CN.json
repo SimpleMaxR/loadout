@@ -1,0 +1,69 @@
+{
+  "app": {
+    "name": "Loadout",
+    "tagline": "跨工具 MCP & Skill 管理器"
+  },
+  "nav": {
+    "dashboard": "总览",
+    "mcp": "MCP 服务",
+    "skills": "技能库",
+    "settings": "设置"
+  },
+  "tools": {
+    "title": "工具",
+    "installed": "已安装",
+    "notInstalled": "未安装"
+  },
+  "mcp": {
+    "title": "MCP 服务器",
+    "add": "添加 MCP",
+    "remove": "移除",
+    "syncAll": "全量同步",
+    "name": "名称",
+    "transport": "传输",
+    "presence": "分布",
+    "noServers": "暂无 MCP 服务器",
+    "addSuccess": "MCP 服务器已添加并同步",
+    "removeSuccess": "MCP 服务器已移除",
+    "syncSuccess": "同步完成"
+  },
+  "skills": {
+    "title": "技能库",
+    "import": "导入技能",
+    "sync": "同步",
+    "syncAll": "全量同步",
+    "remove": "删除",
+    "name": "名称",
+    "description": "描述",
+    "tags": "标签",
+    "presence": "分布",
+    "noSkills": "技能库为空",
+    "importSuccess": "技能已导入并同步",
+    "syncSuccess": "技能同步完成"
+  },
+  "presence": {
+    "symlinked": "已链接",
+    "copied": "已复制",
+    "absent": "未同步",
+    "drifted": "已偏移",
+    "present": "存在",
+    "incompatible": "不兼容"
+  },
+  "sync": {
+    "syncing": "同步中...",
+    "success": "同步成功",
+    "failed": "同步失败",
+    "partial": "部分失败"
+  },
+  "common": {
+    "confirm": "确认",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "loading": "加载中...",
+    "error": "出错了",
+    "retry": "重试",
+    "close": "关闭",
+    "add": "添加"
+  }
+}

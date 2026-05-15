@@ -1,0 +1,15 @@
+[tool]
+id = "workbuddy"
+display_name = "Workbuddy"
+icon = "workbuddy"
+detect = ["~/.workbuddy/mcp.json"]
+
+[mcp]
+format = "json-key"
+path = "~/.workbuddy/mcp.json"
+key = "mcpServers"
+
+[skills]
+format = "symlink"
+path = "~/.workbuddy/skills"
+skill_entry = "SKILL.md"
